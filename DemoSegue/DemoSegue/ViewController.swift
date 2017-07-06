@@ -13,9 +13,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var Button1: UIButton!
     @IBOutlet weak var Button2: UIButton!
     @IBOutlet weak var Button3: UIButton!
+    @IBOutlet weak var Button4: UIButton!
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view, typically from a nib.
     }
 
@@ -45,7 +47,20 @@ class ViewController: UIViewController {
         print("Button3 Clicked!")
         let TVC = ThirdViewController()
         self.show(TVC, sender: nil)
-        
     }
+    //Case 4. SB-->SB，中间没有Segue
+    //首先获取SB，其次获取跳转的指定Controller，最后执行show()
+    //Case 4与Case 1的区别体现在：Case 4利用了navigationController，采用push和pop方式
+    @IBAction func button4Clicked(_ sender: Any) {
+        print("Button4 Clicked!")
+        let SB = UIStoryboard(name:"Main",bundle:nil)
+        let FourthVC = SB.instantiateViewController(withIdentifier: String(describing: FourthViewController.self)) as! FourthViewController
+        //self.navigationController!.pushViewController(FourthVC, animated: true)
+        //self.show(FourthVC, sender: nil)
+        //coding here
+    }
+    
+    
+    
 }
 

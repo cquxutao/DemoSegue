@@ -18,6 +18,7 @@
 		39C4E6721F0E6260005429C1 /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C4E6711F0E6260005429C1 /* FirstViewController.swift */; };
 		39C4E6741F0E69E8005429C1 /* SecondViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C4E6731F0E69E8005429C1 /* SecondViewController.swift */; };
 		39C4E6761F0E6FE5005429C1 /* ThirdViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C4E6751F0E6FE5005429C1 /* ThirdViewController.swift */; };
+		39C4E6781F0E7A56005429C1 /* FourthViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C4E6771F0E7A56005429C1 /* FourthViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		39C4E6711F0E6260005429C1 /* FirstViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
 		39C4E6731F0E69E8005429C1 /* SecondViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SecondViewController.swift; sourceTree = "<group>"; };
 		39C4E6751F0E6FE5005429C1 /* ThirdViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ThirdViewController.swift; sourceTree = "<group>"; };
+		39C4E6771F0E7A56005429C1 /* FourthViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FourthViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -110,6 +112,7 @@
 				39C4E6711F0E6260005429C1 /* FirstViewController.swift */,
 				39C4E6731F0E69E8005429C1 /* SecondViewController.swift */,
 				39C4E6751F0E6FE5005429C1 /* ThirdViewController.swift */,
+				39C4E6771F0E7A56005429C1 /* FourthViewController.swift */,
 				39C4E6421F0E532A005429C1 /* Main.storyboard */,
 				39C4E6481F0E532A005429C1 /* Assets.xcassets */,
 				39C4E64A1F0E532A005429C1 /* LaunchScreen.storyboard */,
@@ -276,6 +279,7 @@
 				39C4E6411F0E532A005429C1 /* ViewController.swift in Sources */,
 				39C4E6471F0E532A005429C1 /* DemoSegue.xcdatamodeld in Sources */,
 				39C4E63F1F0E532A005429C1 /* AppDelegate.swift in Sources */,
+				39C4E6781F0E7A56005429C1 /* FourthViewController.swift in Sources */,
 				39C4E6741F0E69E8005429C1 /* SecondViewController.swift in Sources */,
 				39C4E6761F0E6FE5005429C1 /* ThirdViewController.swift in Sources */,
 				39C4E6721F0E6260005429C1 /* FirstViewController.swift in Sources */,
